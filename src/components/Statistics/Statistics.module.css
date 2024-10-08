@@ -1,0 +1,35 @@
+/* components/Statistics/Statistics.module.css */
+
+.statistics {
+    margin: 200px auto; /* Spațiu în jurul secțiunii statistici */
+    width: 80%;
+  }
+  
+  .title {
+    text-align: center; /* Centrăm titlul */
+    margin-bottom: 20px; /* Spațiu sub titlu */
+  }
+  
+  .statList {
+    list-style: none; /* Elimină marcajele de listă */
+    padding: 0; /* Elimină padding-ul */
+    display: flex; /* Folosim flexbox pentru a aranja elementele orizontal */
+    justify-content: space-between; /* Spațiu între elemente */
+  }
+  
+  .item {
+    flex: 1; /* Fiecare element va ocupa spațiu egal */
+    color: white; /* Culoarea textului pentru contrast */
+    text-align: center; /* Centrăm textul */
+    padding: 10px 0; /* Padding pentru text */
+    border-radius: 5px; /* Marginile rotunjite pentru fiecare element */
+    margin: 0; /* Eliminăm marginea */
+  }
+  
+  .label {
+    display: block; /* Asigură-te că labelul ocupă întreaga lățime */
+  }
+  
+  .percentage {
+    font-size: 1.2em; /* Mărimea fontului pentru procent */
+  }
